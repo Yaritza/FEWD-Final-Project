@@ -12,16 +12,22 @@ a:link {
 }
 /*Home(Index) Page starts here*/
 #homeText {
-    background: url(../img/TurnTable.jpg) no-repeat center fixed;
+    background: url(../img/OffsetTurnTable.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;  /*Opera 10+supported*/
   background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
-    background-attachment: fixed; /*keeps image cropped by smallest dimension  as window size changes*/
+    background-attachment: cover; /*keeps image cropped by smallest dimension  as window size changes*/
 }
 
-
-
+/*About page styling starts here*/
+#bioBackground {
+        background: url(../img/Highline3.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;  /*Opera 10+supported*/
+      background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
 
 /*Demo page styles start here*/
 #demo {
@@ -52,27 +58,39 @@ a:link {
 }
 /*calendar page styles start here*/
 #calendarBackground {
-        background: url(../img/allens.jpeg) no-repeat center fixed;
+        background: url(../img/bluelights.jpg) no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover; /*Opera 10+supported*/
+        -o-background-size: cover; /*Opera 10+supported
         background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
-        width: 830px;
-        margin: 50px auto;
+        width: 840px;
+        margin: 50px auto;*/
 }
 
 .transparentBox {
          background-color: rgba(1, 1, 1, 0.4);  /*hexcolor codes did not work well for this transparency*/
          filter: alpha(opacity=40);  /*For IE8 and earlier*/
-         padding: 15px;
+         padding: 20px;
          -webkit-border-radius: 12px;  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
          -moz-border-radius: 12px; /* Firefox 1-3.6 */
          border-radius: 12px; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
   }
 
 /*#calendarBackground iframe {
-        marg*/in-top: 10% auto;
+        margin-top: 10% auto;
 } */
+
+
+/*Press Release page styles start here*/
+#pressReleaseImage {
+    background: url(../img/webster-hall.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;  /*Opera 10+supported*/
+  background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+
+/*contact page styling starts here */
 /****contact form's loading spinner from here on***/
 #fountainTextG {
         width:240px;
