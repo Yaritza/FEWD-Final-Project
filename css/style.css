@@ -1,15 +1,4 @@
-/*Navbar starts here*/
-.navPanel .nav {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    width: 20%;git
-    height: 100%;
-}
-a:link {
-    text-decoration: none;
-}
+
 /*Home(Index) Page starts here*/
 #homeText {
     background: url(../img/OffsetTurnTable.jpg) no-repeat center fixed;
@@ -83,195 +72,24 @@ a:link {
 
 /*Press Release page styles start here*/
 #pressReleaseImage {
-    background: url(../img/webster-hall.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;  /*Opera 10+supported*/
-  background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+            background: url(../img/webster-hall.jpg) no-repeat center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;  /*Opera 10+supported*/
+          background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
 }
 
 /*contact page styling starts here */
-/****contact form's loading spinner from here on***/
-#fountainTextG {
-        width:240px;
+#contactBody {
+          background: url(../img/velvetyRed.jpg) no-repeat center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;  /*Opera 10+supported*/
+          background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+          padding: 25%;
 }
 
-.fountainTextG{
-        color:#A6A5A1;
-        font-family:Symbol;
-        font-size:25px;
-        text-decoration:none;
-        font-weight:normal;
-        font-style:normal;
-        float:left;
-        -moz-animation-name:bounce_fountainTextG;
-        -moz-animation-duration:3.08s;
-        -moz-animation-iteration-count:infinite;
-        -moz-animation-direction:linear;
-        -moz-transform:scale(.5);
-        -webkit-animation-name:bounce_fountainTextG;
-        -webkit-animation-duration:3.08s;
-        -webkit-animation-iteration-count:infinite;
-        -webkit-animation-direction:linear;
-        -webkit-transform:scale(.5);
-        -ms-animation-name:bounce_fountainTextG;
-        -ms-animation-duration:3.08s;
-        -ms-animation-iteration-count:infinite;
-        -ms-animation-direction:linear;
-        -ms-transform:scale(.5);
-        -o-animation-name:bounce_fountainTextG;
-        -o-animation-duration:3.08s;
-        -o-animation-iteration-count:infinite;
-        -o-animation-direction:linear;
-        -o-transform:scale(.5);
-        animation-name:bounce_fountainTextG;
-        animation-duration:3.08s;
-        animation-iteration-count:infinite;
-        animation-direction:linear;
-        transform:scale(.5);
-}
-
-#fountainTextG_1{
-        -moz-animation-delay:0.88s;
-        -webkit-animation-delay:0.88s;
-        -ms-animation-delay:0.88s;
-        -o-animation-delay:0.88s;
-        animation-delay:0.88s;
-}
-
-#fountainTextG_2{
-        -moz-animation-delay:1.1s;
-        -webkit-animation-delay:1.1s;
-        -ms-animation-delay:1.1s;
-        -o-animation-delay:1.1s;
-        animation-delay:1.1s;
-}
-
-#fountainTextG_3{
-        -moz-animation-delay:1.32s;
-        -webkit-animation-delay:1.32s;
-        -ms-animation-delay:1.32s;
-        -o-animation-delay:1.32s;
-        animation-delay:1.32s;
-}
-
-#fountainTextG_4{
-        -moz-animation-delay:1.54s;
-        -webkit-animation-delay:1.54s;
-        -ms-animation-delay:1.54s;
-        -o-animation-delay:1.54s;
-        animation-delay:1.54s;
-}
-
-#fountainTextG_5{
-        -moz-animation-delay:1.76s;
-        -webkit-animation-delay:1.76s;
-        -ms-animation-delay:1.76s;
-        -o-animation-delay:1.76s;
-        animation-delay:1.76s;
-}
-
-#fountainTextG_6{
-        -moz-animation-delay:1.98s;
-        -webkit-animation-delay:1.98s;
-        -ms-animation-delay:1.98s;
-        -o-animation-delay:1.98s;
-        animation-delay:1.98s;
-}
-
-#fountainTextG_7{
-        -moz-animation-delay:2.2s;
-        -webkit-animation-delay:2.2s;
-        -ms-animation-delay:2.2s;
-        -o-animation-delay:2.2s;
-        animation-delay:2.2s;
-}
-
-#fountainTextG_8{
-        -moz-animation-delay:2.42s;
-        -webkit-animation-delay:2.42s;
-        -ms-animation-delay:2.42s;
-        -o-animation-delay:2.42s;
-        animation-delay:2.42s;
-}
-
-#fountainTextG_9{
-        -moz-animation-delay:2.64s;
-        -webkit-animation-delay:2.64s;
-        -ms-animation-delay:2.64s;
-        -o-animation-delay:2.64s;
-        animation-delay:2.64s;
-}
-
-#fountainTextG_10{
-        -moz-animation-delay:2.86s;
-        -webkit-animation-delay:2.86s;
-        -ms-animation-delay:2.86s;
-        -o-animation-delay:2.86s;
-        animation-delay:2.86s;
-}
-
-@-moz-keyframes bounce_fountainTextG{
-0%{
-        -moz-transform:scale(1);
-        color:#A6A5A1;
-}
-
-100%{
-        -moz-transform:scale(.5);
-        color:#858185;
-}
+.contactBody.iframe {
+    margin-left: 75px;
 
 }
-
-@-webkit-keyframes bounce_fountainTextG{
-0%{
-        -webkit-transform:scale(1);
-        color:#A6A5A1;
-}
-
-100%{
-        -webkit-transform:scale(.5);
-        color:#858185;
-}
-
-}
-
-@-ms-keyframes bounce_fountainTextG{
-0%{
-        -ms-transform:scale(1);
-        color:#A6A5A1;
-}
-
-100%{
-        -ms-transform:scale(.5);
-        color:#858185;
-}
-
-}
-
-@-o-keyframes bounce_fountainTextG{
-0%{
-        -o-transform:scale(1);
-        color:#A6A5A1;
-}
-
-100%{
-        -o-transform:scale(.5);
-        color:#858185;
-}
-
-}
-
-@keyframes bounce_fountainTextG{
-0%{
-        transform:scale(1);
-        color:#A6A5A1;
-}
-
-100%{
-        transform:scale(.5);
-        color:#858185;
-}
-
-} - See more at: http://cssload.net/en/animated_text#sthash.nSGk8O8w.dpuf

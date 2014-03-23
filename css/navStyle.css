@@ -1,0 +1,29 @@
+body {
+    background: pink;
+}
+
+#navContainer {
+        width: 225px;
+        height: 900px;
+        background-color: rgba(1, 1, 1, 0.5);  /*hexcolor codes did not work well for this transparency*/
+        filter: alpha(opacity=40); /* For IE8 and earlier */
+        padding: 3% 3%;
+        font-weight:bold;
+        color:#000000;
+        margin: 0%;
+}
+
+#navContainer.li {
+        list-style-type: none;
+        text-decoration: none;
+}
+
+#navContainer a {
+        padding: 30px 40px;
+        font-weight:bold;
+        text-decoration: none;
+        color: white;
+        opacity: 1.0;
+}
+
+
