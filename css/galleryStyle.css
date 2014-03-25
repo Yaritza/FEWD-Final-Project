@@ -1,0 +1,21 @@
+/*gallery page styles start here*/
+#galleryBackground {
+           background: url(../img/tufted_texture.jpg) no-repeat center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;  /*Opera 10+supported*/
+          background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+
+#galleryBackground ul {
+        list-style-type: none;
+}
+
+#galleryBackground .photos img {
+        text-decoration: none;
+        border: 8px solid white;
+        display: inline-block;
+        margin: 10px;
+        float: right;
+
+}
