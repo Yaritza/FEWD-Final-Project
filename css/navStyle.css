@@ -2,8 +2,15 @@
 
 #navContainer .logo {
     text-align: center;
+    padding-bottom: 22%;
+    padding-top: 15%;
 }
-
+#RG {
+    font-family: chalkduster, mistral, sans-serif;
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+}
 #navContainer {
         width: 225px;
         height: 900px;
@@ -17,13 +24,17 @@
 
 #navContainer ul {
         list-style-type: none;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 10%;
 }
 
-#navContainer a {
+#navContainer .navLinks {
         text-decoration: none;
-        fonxt-size: 25px;
+        font-size: 28px;
+        font-family: tahoma, helvetica, sans-serif;
         line-height: 50px;
-        font-weight: bold;
+        font-weight: normal;
         text-decoration: none;
         color: white;
         opacity: 1.0;
@@ -31,8 +42,8 @@
 
 #favicons ul li {
         display: inline-block;
-        padding-top: 50px;
-        padding-right: 20px;
+        padding-top: 20%;
+        padding-left: 8%;
 }
 
 .allTextFields {
