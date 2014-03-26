@@ -37,11 +37,10 @@
  .musicSliderContainer {
     background-color: rgba(1, 1, 1, 0.5);  /*hexcolor codes did not work well for this transparency*/
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    width: 80%;
-    height: 25%;
+    width: 75%;
     padding: 3% 3%;
     margin-left:  0%;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 /*calendar page styles start here*/
 #calendarBackground {
