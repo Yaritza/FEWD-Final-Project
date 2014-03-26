@@ -1,10 +1,22 @@
 /*gallery page styles start here*/
+
 #galleryBackground {
            background: url(../img/tufted_texture.jpg) no-repeat center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;  /*Opera 10+supported*/
           background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+
+
+aside {
+      width:  30%;
+      height:  100%;
+}
+
+#sliderContainer {
+    width: 70%;
+    height: 100%;
 }
 
 #galleryBackground ul {
