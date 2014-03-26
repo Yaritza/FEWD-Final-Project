@@ -70,8 +70,6 @@
 
 #calendarContainer  iframe {
         width: 100%;
-
-
 }
 
 /*contact page styling starts here */
@@ -81,15 +79,18 @@
           -moz-background-size: cover;
           -o-background-size: cover;  /*Opera 10+supported*/
           background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
-          padding-top: 5%;
-          padding-left: 30%;
+         width: 70%;
+         height: 100%;
 }
-
-.contactBody.iframe {
-    margin-left: 75px;
-    margin-top: 20px;
-
+/*#contactBody iframe {
+    margin-left:  50%;
+    margin-top: 5%;
+    float: right;
+    clear: both;
+    overflow: hidden;
 }
+*/
+
 /*Pertains to all pages except the gallery page*/
 
 aside {
