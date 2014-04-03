@@ -8,16 +8,39 @@
           background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
 }
 
-
 aside {
       width:  30%;
       height:  100%;
 }
 
-#sliderContainer {
+/*#sliderContainer {
+     width: 70%;*/
+section {
     width: 70%;
     height: 100%;
 }
+
+.photos {
+        width: 576px;
+        overflow: hidden;
+         /*border: 8px solid white;*/
+}
+
+.photos ul {
+        width: 1920px;
+        padding: 0;
+        margin: 0;
+}
+
+.photos ul li {
+        width:576px;
+        text-align: center;
+        height: 348px;
+        list-style: none;
+        float:  right;
+}
+/* //////////////////////OLD SET-UP////////////////
+
 
 #galleryBackground ul {
         list-style-type: none;
@@ -29,5 +52,8 @@ aside {
         display: inline-block;
         margin: 10px;
         float: right;
-
 }
+*/
+
+/*Source code obtained from: http://www.my-html-codes.com/jquery_tutorials/infinate-slider.php*/
+/*This is the effect I was going for: http://www.my-html-codes.com/jquery_tutorials/infinate-slider.php*/

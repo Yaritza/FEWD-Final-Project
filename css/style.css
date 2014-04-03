@@ -79,22 +79,20 @@
           -moz-background-size: cover;
           -o-background-size: cover;  /*Opera 10+supported*/
           background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
-         width: 70%;
-         height: 100%;
+
 }
-/*#contactBody iframe {
-    margin-left:  50%;
-    margin-top: 5%;
-    float: right;
-    clear: both;
-    overflow: hidden;
+
+#formContainer {
+        width: 60%;
+        height: 100%;
+        margin: 5%  auto;
+        background:  #000000;
 }
-*/
 
 /*Pertains to all pages except the gallery page*/
 
 aside {
-  width: 30%;
+  width: 21%;
   height: 100%;
   float: left;
   margin-left: 0%;
@@ -103,7 +101,7 @@ aside {
 }
 
 .content {
-    width:  70%;
+    width:  79%;
     height:  100%;
     float: right;
 }

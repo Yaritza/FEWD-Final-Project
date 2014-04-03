@@ -1,0 +1,11 @@
+#slideshowContainer {
+    background: pink;
+    <!-- rgba(255, 255, 255, 0.0)-->
+}
+
+.slideshow {
+   background-color: white;
+   padding: 3%
+   width: 325px;
+   height: 525px;
+}

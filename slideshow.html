@@ -1,0 +1,73 @@
+<!-- The intention is to make the slider into an ifram and the embed it in gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+           <head>
+                       <meta charset="utf-8">
+                        <meta name="description"  content="NYC based MC and DJ Ross Gold, enlivens parties and corporate events with digitally mixed tracks that are custom tailored to meet your event needs.">
+
+                       <meta name="keywords" content="weddings, special occasions, parties, party music, Bar mitzvah, Bat mitzvah, sweet sixteen, private events, clubs, experienced DJ, music, disc jokey, disk jokey, music producer, lounge DJ, club DJ, digitally produced soundtracks, corporate events, custom music production, DJ Ross Gold, contact">
+
+                       <title>Slideshow</title>
+                      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+                   <link rel="stylesheet" href="css/reset.css">
+                     <link rel="stylesheet" href="css/slideshow.css">
+          </head>
+
+
+<body id="slideshowContainer">
+    <!--   <header>Past appearances & events</header> -->
+
+      <div class="slideshow">
+              <table border="0" cellpadding="0">
+                  <!--   <caption><strong>Air Show Photos</strong></caption> -->
+                  <tr>
+                      <td width="100%"><img src=" img/largeCrowdPic.jpg" width="518" height="313" name="photoslider"></td>
+                  </tr>
+                  <tr>
+                       <td width="100%">
+                            <form method="POST" name="rotater">
+                       <div align="center"><center><p>
+
+<script language="JavaScript1.1">
+    var photos=new Array()
+    var which=0
+
+    /*Change the below variables to reference your own images. You may have as many images in the slider as you wish*/
+    photos[0]="../img/largeCrowdPic.jpg"
+    photos[1]="../img/weddingPic1.jpg"
+    photos[2]="../img/poolParty.jpg"
+    photos[3]="../img/schoolDance.jpg"
+    photos[4]="../img/highlineFundraiser.jpg"
+
+
+    function backward(){
+         if (which>0){
+               window.status=''
+        which--
+              document.images.photoslider.src=photos[which]
+    }
+    }
+
+    function forward(){
+    if (which<photos.length-1){
+    which++
+    document.images.photoslider.src=photos[which]
+    }
+    else window.status='End of gallery'
+    }
+</script>
+
+<input type="button" value="&lt;&lt;Back" name="B2"
+      onClick="backward()"> <input type="button" value="Next&gt;&gt;" name="B1"
+      onClick="forward()"><br>
+      <a href="#" onClick="which=1;backward();return false"><small>Start Over</small></a></p>
+      </center></div>
+    </form>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><font face="arial" size="-2">This free script provided by</font><br>
+<font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+Kit</a></font></p>
+</body>
